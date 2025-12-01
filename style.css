@@ -34,6 +34,13 @@ h1 {
   padding: 20px;
   text-align: center;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.skill-card img {
+  width: 50px;
+  margin-right: 10px;
 }
 
 .job-card {
@@ -42,12 +49,20 @@ h1 {
   text-align: left;
   margin-top: 20px;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .company {
   color: #3b82f6;
   font-weight: bold;
   margin-bottom: 15px;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
 }
 
 .footer {
