@@ -1,37 +1,59 @@
 body {
-    font-family: sans-serif;
-    background-color: #1a1a1a;
-    color: #ffffff;
-    margin: 0;
+  font-family: sans-serif;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  margin: 0;
 }
 
-.container{
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 100px;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
 }
 
-h1{
-    font-size: 3rem;
-    color: #3b82f6;
+h1 {
+  font-size: 3rem;
+  color: #3b82f6;
 }
 
-.skills-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    margin-top: 30px;
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
 }
 
-.skill-card:hover{
-    background-color: #3b82f6;
-    cursor: pointer;
+.skill-card:hover {
+  background-color: #3b82f6;
+  cursor: pointer;
 }
 
-.skill-card{
-    background-color: #333;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
+.skill-card {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.job-card {
+  background-color: #333;
+  padding: 30px;
+  text-align: left;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.company {
+  color: #3b82f6;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  color: #888;
+  font-size: 0.9rem;
 }
