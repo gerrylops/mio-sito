@@ -2,5 +2,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.mouseWheelZoom": true
+  "editor.mouseWheelZoom": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
