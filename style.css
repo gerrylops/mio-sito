@@ -145,41 +145,61 @@ h1 {
 }
 
 .bio-container {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto 60px auto;
   margin-bottom: 50px;
+  text-align: left;
+  padding: 0 20px;
 }
 
 .bio-intro {
-  font-size: 1.3rem;
-  color: white;
-  line-height: 1.6;
-  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #e5e7eb;
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.bio-details {
-  font-size: 1.1rem;
-  color: #d1d5db;
-  line-height: 1.8;
+.text-blue {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.bio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.bio-card {
+  background-color: #252525;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #333;
+  transition: transform 0.2s;
+}
+
+.bio-card:hover {
+  transform: translateY(-5px);
+  border-color: #3b82f6;
+}
+
+.card-icon {
+  font-size: 2rem;
   margin-bottom: 15px;
 }
 
-.cta-container {
-  margin-top: 30px;
-}
-
-.cta-button {
-  background-color: #3b82f6;
+.bio-card h3 {
+  margin: 0 0 10px 0;
   color: white;
-  padding: 12px 30px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s;
+  font-size: 1.3rem;
 }
 
-.cta-button:hover {
-  background-color: #2563eb;
+.bio-card p {
+  color: #9ca3af;
+  margin-bottom: 20px;
+  line-height: 1.6;
 }
 
 .contact-form {
@@ -212,14 +232,16 @@ h1 {
 }
 
 .submit-btn {
+  text-decoration: none;
   width: 100%;
-  background-color: #3b82f6; /* Blu */
+  background-color: #3b82f6;
   color: white;
   padding: 15px;
   border: none;
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
+  font-size: 1.1rem;
 }
 
 .submit-btn:hover {
@@ -283,5 +305,13 @@ h1 {
 
   .company-logo {
     margin-bottom: 15px;
+  }
+
+  .bio-grid {
+    grid-template-columns: 1fr;
+  }
+  .lead-text {
+    font-size: 1.2rem;
+    text-align: left;
   }
 }
