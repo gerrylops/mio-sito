@@ -257,3 +257,31 @@ h1 {
 .menu-list a:hover {
   color: #3b82f6;
 }
+
+@media (max-width: 768px) {
+  .menu-list {
+    gap: 15px;
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .job-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .company-logo {
+    margin-bottom: 15px;
+  }
+}
