@@ -15,7 +15,14 @@
   </head>
 
   <body>
-    <div class="container">
+    <nav class="navbar">
+      <ul class="menu-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#esperienze">Esperienza</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+    </nav>
+    <div class="container" id="home">
       <h1>Gerry Lops</h1>
       <p>Junior Software Developer</p>
       <div class="bio-container">
@@ -96,7 +103,7 @@
           <p>VS Code</p>
         </div>
       </div>
-      <h2>La mia esperienza</h2>
+      <h2 id="esperienze">La mia esperienza</h2>
       <div class="job-card">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJWUQXQyGnB9rtvGHj9g6PDjD4wr6bFhvkaA&s"
@@ -193,15 +200,11 @@
         >
           <input
             type="hidden"
-            name="_next"
-            value="https://gerrylops.github.io/mio-sito/"
-          />
-          <input
-            type="hidden"
             name="_subject"
             value="Nuovo contatto dal Sito!"
           />
           <div class="input-group">
+            <input type="text" name="nome" placeholder="Nome" required />
             <input type="text" name="cognome" placeholder="Cognome" required />
           </div>
           <input type="email" name="mail" placeholder="La tua email" required />

@@ -9,7 +9,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 h1 {
@@ -200,4 +200,36 @@ h1 {
 
 .submit-btn:hover {
   background-color: #2563eb;
+}
+
+.navbar {
+  background-color: #1a1a1a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #333;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 15px;
+  gap: 30px;
+}
+
+.menu-list a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.menu-list a:hover {
+  color: #3b82f6;
 }
