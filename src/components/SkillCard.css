@@ -1,0 +1,18 @@
+.skill-card:hover {
+  background-color: #3b82f6;
+  cursor: pointer;
+}
+
+.skill-card {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.skill-card img {
+  width: 50px;
+  margin-right: 10px;
+}
