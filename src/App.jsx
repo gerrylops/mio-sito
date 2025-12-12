@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -9,7 +9,7 @@ import Contatti from "./pages/Contatti";
 function App() {
   return (
     <>
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
         </Routes>
 
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
