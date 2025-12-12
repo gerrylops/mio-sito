@@ -34,9 +34,8 @@ const Home = () => {
           <div className="card-icon">🚀</div>
           <h3>Prossimo Step</h3>
           <p>
-            Voglio specializzarmi in architetture
-            <strong>Frontend</strong> scalabili utilizzando
-            <strong>framework</strong> moderni.
+            Voglio specializzarmi in architetture <strong>Frontend</strong>{" "}
+            scalabili utilizzando <strong>framework</strong> moderni.
           </p>
           <div className="tech-stack">
             {futureSkills.map((text, index) => (
