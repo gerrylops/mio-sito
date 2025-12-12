@@ -1,6 +1,8 @@
 import React from "react";
 import { currentSkills, futureSkills } from "../data/skills";
 import SkillBadge from "../components/SkillBadge";
+import { NavLink } from "react-router-dom";
+
 const Home = () => {
   return (
     <div className="container" id="home">
@@ -43,13 +45,15 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <button
-        onclick="location.href='#contatti'"
-        type="button"
-        className="submit-btn"
-      >
-        Parliamone!
-      </button>
+      <NavLink to="/contatti">
+        <button
+          onclick="location.href='#contatti'"
+          type="button"
+          className="submit-btn"
+        >
+          Parliamone!
+        </button>
+      </NavLink>
     </div>
   );
 };
