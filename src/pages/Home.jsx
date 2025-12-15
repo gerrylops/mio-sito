@@ -2,6 +2,7 @@ import React from "react";
 import { currentSkills, futureSkills } from "../data/skills";
 import SkillBadge from "../components/SkillBadge";
 import { NavLink } from "react-router-dom";
+import "./Home.css";
 
 const Home = () => {
   return (

@@ -44,7 +44,7 @@ export const skillsList = [
 
 // Liste per i Badge nella Home (solo testo)
 export const currentSkills = [
-  "JavaScript (ES6+)",
+  "JavaScript",
   "DOM Manipulation",
   "REST API",
   "Data Viz",

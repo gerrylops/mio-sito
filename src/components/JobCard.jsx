@@ -1,5 +1,6 @@
 import React from "react";
 import SkillBadge from "./SkillBadge";
+import "./JobCard.css";
 
 const JobCard = ({ role, company, logo, intro, description, techStack }) => {
   return (
