@@ -12,6 +12,23 @@ body {
   padding-top: 40px;
 }
 
+.submit-btn {
+  text-decoration: none;
+  width: 100%;
+  background-color: #3b82f6;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.submit-btn:hover {
+  background-color: #2563eb;
+}
+
 @media (max-width: 768px) {
   .container {
     padding-left: 20px;
